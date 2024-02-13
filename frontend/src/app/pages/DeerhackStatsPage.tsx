@@ -3,7 +3,7 @@ import { cabinetBlack, cabinetExtraBold } from "../utils/fonts";
 import DeerHackStats from "../sections/DeerhackStats/DeerhackStats";
 import Image from "next/image";
 
-import leaf_deerhack2023_right from "@/app/assets/images/leaf_deerhack2023_right.svg";
+import leaf_deerhack2023_right from "@/app/assets/images/leaf_deerhack2023_right.png";
 
 export default function DeerhackStatsPage(): ReactElement {
   return (

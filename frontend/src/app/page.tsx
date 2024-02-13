@@ -14,7 +14,7 @@ export default function Home() {
       <PrizesPage />
       <ExpectationsPage />
       <DeerhackStatsPage />
-      <JudgesSection />
+      {/* <JudgesSection /> */}
       <Footer />
     </>
   );
