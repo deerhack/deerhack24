@@ -857,6 +857,7 @@ export interface ApiSponsorSponsor extends Schema.CollectionType {
     singularName: 'sponsor';
     pluralName: 'sponsors';
     displayName: 'Sponsor';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -864,7 +865,7 @@ export interface ApiSponsorSponsor extends Schema.CollectionType {
   attributes: {
     name: Attribute.String & Attribute.Required;
     url: Attribute.String & Attribute.Required;
-    logo: Attribute.Media;
+    image: Attribute.Media;
     sponsor_type: Attribute.Relation<
       'api::sponsor.sponsor',
       'manyToOne',
