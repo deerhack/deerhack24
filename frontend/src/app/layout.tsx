@@ -14,10 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className=" bg-dark-purple">
-        <header className="fixed w-full mx-auto z-10">
+      <body className="">
+        {/* <header className="fixed w-full mx-auto z-10">
           <Navbar />
-        </header>
+        </header> */}
         <main>{children}</main>
       </body>
     </html>
