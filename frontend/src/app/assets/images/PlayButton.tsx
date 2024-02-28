@@ -1,0 +1,102 @@
+import { ReactElement } from "react";
+
+const PlayButton = ({width = 93, height = 93}:{
+    width?: number;
+    height?: number;
+}):ReactElement => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 93 93"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_268_1289)">
+        <circle cx="46" cy="46" r="46" fill="#110C24" />
+        <g filter="url(#filter1_d_268_1289)">
+          <path
+            d="M36.514 61.3334C36.0057 61.3324 35.5065 61.1983 35.0654 60.9442C34.0721 60.3775 33.4545 59.2775 33.4545 58.0834V33.9168C33.4545 32.7193 34.0721 31.6227 35.0654 31.056C35.517 30.7947 36.0301 30.6603 36.5509 30.6669C37.0718 30.6735 37.5813 30.8208 38.0263 31.0935L58.5425 43.4568C58.9701 43.7267 59.3226 44.1015 59.5669 44.546C59.8112 44.9906 59.9394 45.4904 59.9394 45.9984C59.9394 46.5065 59.8112 47.0062 59.5669 47.4508C59.3226 47.8954 58.9701 48.2702 58.5425 48.5401L38.023 60.9067C37.5676 61.1838 37.0461 61.3313 36.514 61.3334Z"
+            fill="#F5C144"
+          />
+          <path
+            d="M35.3149 60.5109L35.3131 60.5099C34.4849 60.0374 33.9545 59.1087 33.9545 58.0834V33.9168C33.9545 32.8885 34.4846 31.9629 35.3131 31.4903L35.3131 31.4903L35.3158 31.4888C35.6896 31.2725 36.114 31.1614 36.5446 31.1669C36.9752 31.1723 37.3967 31.2941 37.7651 31.5198L37.7651 31.5198L37.7682 31.5218L58.2798 43.8822C58.6336 44.1066 58.9258 44.4177 59.1287 44.7869C59.3324 45.1575 59.4394 45.5744 59.4394 45.9984C59.4394 46.4224 59.3324 46.8393 59.1287 47.21C58.9258 47.5792 58.6336 47.8903 58.2797 48.1147L37.7649 60.4784L37.763 60.4796C37.3857 60.7092 36.954 60.8314 36.5136 60.8334C36.0933 60.8323 35.6802 60.7213 35.3149 60.5109Z"
+            stroke="#FCF7FF"
+          />
+        </g>
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_268_1289"
+          x="0"
+          y="0"
+          width="93"
+          height="93"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dx="1" dy="1" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.992157 0 0 0 0 0.972549 0 0 0 0 1 0 0 0 1 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_268_1289"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_268_1289"
+            result="shape"
+          />
+        </filter>
+        <filter
+          id="filter1_d_268_1289"
+          x="33.4545"
+          y="30.6667"
+          width="27.4848"
+          height="32.6667"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dx="1" dy="2" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_268_1289"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_268_1289"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
+
+export default PlayButton;

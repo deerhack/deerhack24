@@ -29,8 +29,8 @@ export default function longLeafSVG({
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(156.64 188.535) rotate(156.74) scale(459.974 439.046)"
         >
-          <stop stop-color="#FF9CAA" />
-          <stop offset="0.396043" stop-color="#6633CC" />
+          <stop stopColor="#FF9CAA" />
+          <stop offset="0.396043" stopColor="#6633CC" />
           <stop offset="1" />
         </radialGradient>
       </defs>

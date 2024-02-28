@@ -12,6 +12,7 @@ import ImageCarouselPage from "./pages/ImageCarouselPage";
 import FAQ from "./pages/FAQ";
 import Judges from "./pages/Judges";
 import Mentors from "./pages/Mentors";
+import ParticipantsVideoPage from "./pages/ParticipantsVideoPage";
 export default function Home() {
   return (
     <>
@@ -23,6 +24,7 @@ export default function Home() {
       <ExpectationsPage />
       <DeerhackStatsPage />
       <ImageCarouselPage />
+      <ParticipantsVideoPage />
       <Judges />
       <Mentors />
       <FAQ />
