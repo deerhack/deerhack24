@@ -13,6 +13,7 @@ import FAQ from "@/app/(pages)/FAQ";
 import Judges from "@/app/(pages)/Judges";
 import Mentors from "@/app/(pages)/Mentors";
 import Navbar from "@/app/components/Navbar/Navbar";
+import ParticipantsVideoPage from "./(pages)/ParticipantsPage";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <ExpectationsPage />
       <DeerhackStatsPage />
       <ImageCarouselPage />
+      <ParticipantsVideoPage />
       <Judges />
       <Mentors />
       <FAQ />
