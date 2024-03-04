@@ -53,7 +53,7 @@ export default async function Organizers() {
                       linkedin_url={organizer.linkedin_url}
                       name={organizer.name}
                     />
-                  )
+                  ),
                 )}
               </div>
             )}
