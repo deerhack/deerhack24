@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { cabinetBlack, cabinetBold, cabinetExtraBold } from "./utils/fonts";
-import { redirect } from "next/navigation";
 import GoBackToHome from "./components/GoBack/GoBackToHome";
 
 export default function NotFound() {
