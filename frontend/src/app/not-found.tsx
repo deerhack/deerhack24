@@ -18,6 +18,8 @@ export default function NotFound() {
           className={`${cabinetExtraBold.className} text-primary-gradient-color-reverse w-fit text-5xl text-center`}
         >
           Nobody Seems to be here!
+
+          
         </p>
         <GoBackToHome />
       </div>
