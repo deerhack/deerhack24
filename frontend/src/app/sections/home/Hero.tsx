@@ -40,10 +40,16 @@ const Hero = () => {
           style={{ height: "44px", width: "312px" }}
         ></div>
 
-        <Link href="https://discord.gg/2pVf97qmzd" className="w-fit mx-auto" target="_blank">
+        <Link
+          href="https://discord.gg/2pVf97qmzd"
+          className="w-fit mx-auto"
+          target="_blank"
+        >
           <div className="flex flex-row justify-center items-center gap-2 p-4 bg-grape rounded-lg text-white mx-auto">
-              <DiscordHero/>
-              <p className={`text-white ${cabinetBold.className} text-base `}>Join Our Discord!</p>
+            <DiscordHero />
+            <p className={`text-white ${cabinetBold.className} text-base `}>
+              Join Our Discord!
+            </p>
           </div>
         </Link>
       </div>

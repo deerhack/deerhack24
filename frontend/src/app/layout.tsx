@@ -63,12 +63,7 @@ export default function RootLayout({
         <GoogleAnalytics gaId={`${ANALYTICS_ID}`} />
         <main>{children}</main>
         {/* <Footer /> */}
-        <Script
-         
-          defer
-          async
-          src="https://apply.devfolio.co/v2/sdk.js"
-        ></Script>
+        <Script defer async src="https://apply.devfolio.co/v2/sdk.js"></Script>
       </body>
     </html>
   );

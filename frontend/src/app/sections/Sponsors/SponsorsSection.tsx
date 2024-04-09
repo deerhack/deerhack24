@@ -16,7 +16,7 @@ export default function SponsorsSection() {
       </div>
 
       <div>
-        <PlatinumSponsor/>
+        <PlatinumSponsor />
       </div>
       {sponsors.map((sponsorType) => (
         <div
@@ -26,9 +26,7 @@ export default function SponsorsSection() {
           <div
             className={`${cabinetMedium.className} text-white text-3xl font-extrabold tracking-normal`}
           >
-            <div className=" text-3xl mb-2">
-              {sponsorType.name}
-            </div>
+            <div className=" text-3xl mb-2">{sponsorType.name}</div>
           </div>
           <div className=" flex flex-wrap md:flex-row flex-col gap-20 justify-center items-center ">
             {sponsorType.sponsors.map((sponsor) => (
