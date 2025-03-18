@@ -8,11 +8,11 @@ import Script from "next/script";
 export const metadata = {
   metadataBase: "https://deerhack.deerwalk.edu.np",
   title: {
-    template: "%s | DeerHack 2024 - Fawning Over Innovation",
-    default: "DeerHack 2024 - Fawning Over Innovation",
+    template: "%s | DeerHack 2025 - Fawning Over Innovation",
+    default: "DeerHack 2025 - Fawning Over Innovation",
   },
   description:
-    "DeerHack 2024 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change",
+    "DeerHack 2025 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change",
   keywords: [
     "Hackathon in Nepal",
     " 36 Hours Hackathon",
@@ -25,17 +25,17 @@ export const metadata = {
     " why participate in hackathon",
   ],
   openGraph: {
-    title: "Deerhack 2024 - Fawning over Innovation",
+    title: "Deerhack 2025 - Fawning over Innovation",
     description:
-      "DeerHack 2024 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change",
+      "DeerHack 2025 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change",
     url: "https://deerhack.deerwalk.edu.np",
-    siteName: "Deerhack 2024 - Fawning Over Innovation",
+    siteName: "Deerhack 2025 - Fawning Over Innovation",
     images: [
       {
         url: "/banner.webp",
         width: 400,
         height: 250,
-        alt: "Deerhack 2024 Banner",
+        alt: "Deerhack 2025 Banner",
       },
     ],
     locale: "en_US",
@@ -43,9 +43,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deerhack 2024",
+    title: "Deerhack 2025",
     description:
-      "DeerHack 2024 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change",
+      "DeerHack 2025 is the brainchild of a small team to unleash the potential of young innovators through a 36-hour hackathon in which developers, designers, students, entrepreneurs, educators, and mentors collaborate to create solutions that tackle real-world problems. When people from many backgrounds collaborate, they do more than merely do good; they become a force for global change",
     images: ["/banner.webp"],
   },
   category: "technology",
